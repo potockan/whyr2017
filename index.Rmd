@@ -14,9 +14,11 @@ output:
       previewLinks: true
 ---
 
+
+
 ```{r, include=FALSE}
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
-library(knitr)
+library(knitr) 
 opts_chunk$set(
 	comment = "",
 	fig.width = 12, 
@@ -160,8 +162,8 @@ Wszystkie opcje dostępne są tutaj: [https://gohugo.io/getting-started/configur
 
 - `permalinks` - sposób tworzenia linków: opcja `slug`
 - `publishDir` - folder, w którym generowana będzie strona
-- `theme` - szablon, na którym budujemy stronę
-- `ignoreFiles` - pliki i foldery do ignorowania przy budowie strony
+- `theme` - motyw, na którym budujemy stronę
+- `ignoreFiles` - pliki i foldery do ignorowania przy budowie strony, np. pliki `*.Rmd`
 - `uglyURLs` - równe `false`: `foo.md` generuje `foo/index.html`; równe `true`: `foo.md` generuje `foo.html`
 
 ## Folder `content`
@@ -177,9 +179,9 @@ Wszystkie opcje dostępne są tutaj: [https://gohugo.io/getting-started/configur
 └── ...
 ```
 
-## YAML
+## Opcje YAML
 
-Każdy post zaczyna się od specyfikacji w YAMLu. Ciekawe opcje:
+Każdy post zaczyna się od specyfikacji w YAMLu.
 
 - `draft` - widoczne tylko na lokalne stronie 
 - `publishdate` - można określić datę publikacji (widoczne tylko na lokalnej stronie)
@@ -211,4 +213,9 @@ Każdy post zaczyna się od specyfikacji w YAMLu. Ciekawe opcje:
 
 
 # Dziękuję za uwagę
+  
+## Żródła
+
+Dokumentacja blogdowna: https://bookdown.org/yihui/blogdown/
+
 
