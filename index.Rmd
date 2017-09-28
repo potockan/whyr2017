@@ -69,10 +69,11 @@ blogdown::install_hugo()
 
 ## Pierwsze kroki
 
-1. Ściągnij odpowiadający motyw (theme)
+1. Ściągnij odpowiadający motyw (theme): http://themes.gohugo.io/
 1. Stwórz nowy projekt
 2. Wywołaj funkcję `blogdown::new_site()` w argumencie podając motyw
-3. I gotowe - właśnie stworzyłe/aś kompletną stronę internetową :)
+
+I gotowe - właśnie stworzyłe/aś kompletną stronę internetową :)
 
 ![](img/s007_new_site.png)
 
@@ -81,7 +82,7 @@ blogdown::install_hugo()
 
 ## Nowy wpis
 
-- Automatyczne przeładowywanie strony: `options(servr.daemon = TRUE)` a następnie `blogdown::serve_site()` lub wybranie tej opcji z `Addins`
+- Automatyczne przeładowywanie strony: `options(servr.daemon = TRUE)`, a następnie `blogdown::serve_site()` lub wybranie tej opcji z `Addins`
 - Nowy wpis: `blogdown::new_post()` lub wybranie tej opcji z `Addins`
 
 ![](img/s008_new_post.png)
@@ -217,5 +218,7 @@ Każdy post zaczyna się od specyfikacji w YAMLu.
 ## Żródła
 
 Dokumentacja blogdowna: https://bookdown.org/yihui/blogdown/
+
+Prezentacja dostępna na GitHubie: https://potockan.github.io/whyr2017/
 
 
